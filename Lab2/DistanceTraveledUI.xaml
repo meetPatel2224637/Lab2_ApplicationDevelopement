@@ -1,0 +1,19 @@
+﻿<Window x:Class="Lab2.DistanceTraveledUI"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab2"
+        mc:Ignorable="d"
+        Title="DistanceTraveledUI" Height="450" Width="800">
+    <Grid>
+        <Label Content="Speed" HorizontalAlignment="Left" Margin="101,79,0,0" VerticalAlignment="Top"/>
+        <Label Content="Time" HorizontalAlignment="Left" Margin="257,79,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="speed" HorizontalAlignment="Left" Height="23" Margin="101,127,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="time" HorizontalAlignment="Left" Height="23" Margin="257,127,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Calculate Distance" HorizontalAlignment="Left" Margin="101,214,0,0" VerticalAlignment="Top" Width="133" Click="Button_Click"/>
+        <Label Content="Distance" HorizontalAlignment="Left" Margin="101,289,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="displayDistance" Content="" HorizontalAlignment="Left" Margin="101,329,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20"/>
+
+    </Grid>
+</Window>

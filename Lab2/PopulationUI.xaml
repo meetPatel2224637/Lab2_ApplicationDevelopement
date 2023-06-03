@@ -1,0 +1,21 @@
+﻿<Window x:Class="Lab2.PopulationUI"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab2"
+        mc:Ignorable="d"
+        Title="PopulationUI" Height="450" Width="800">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Starting Size:"/>
+            <TextBox x:Name="txtStartingSize" Margin="0 5 0 0"/>
+            <TextBlock Text="Daily Increase (%):" Margin="0 10 0 0"/>
+            <TextBox x:Name="txtDailyIncrease" Margin="0 5 0 0"/>
+            <TextBlock Text="Number of Days:" Margin="0 10 0 0"/>
+            <TextBox x:Name="txtNumberOfDays" Margin="0 5 0 0"/>
+            <Button Content="Calculate" Click="CalculateButton_Click" Margin="0 10 0 0"/>
+            <TextBlock x:Name="txtResult" Margin="0 10 0 0"/>
+        </StackPanel>
+    </Grid>
+</Window>
